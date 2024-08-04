@@ -1,0 +1,28 @@
+{
+  "name": "tidbyt-apps",
+  "version": "1.0.0",
+  "description": "Maintains an updated list of Tidbyt apps.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "module": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsitnik/tidbyt-apps.git"
+  },
+  "keywords": [
+    "tidbyt",
+    "apps"
+  ],
+  "author": "Daniel Sitnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielsitnik/tidbyt-apps/issues"
+  },
+  "homepage": "https://github.com/danielsitnik/tidbyt-apps#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
