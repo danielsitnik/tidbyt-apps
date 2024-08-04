@@ -28,6 +28,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm ci
     - run: npm start
     - run: git config user.name github-actions
     - run: git config user.email github-actions@github.com
