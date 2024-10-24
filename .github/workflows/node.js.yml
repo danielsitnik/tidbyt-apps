@@ -6,7 +6,7 @@ name: Update apps
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 23 * * *'
   push:
     branches: [ "main" ]
   pull_request:
